@@ -1,6 +1,6 @@
-#Reporte de Prácticas del Equipo.
+# Reporte de Prácticas del Equipo.
 
-##Integrantes del Equipo:
+## Integrantes del Equipo:
 
 Flores López Jocelyn
 Hernández Palagot Braulio David
@@ -9,4 +9,4 @@ Ramírez Lazares Claudia Guadalupe
 Rebollo Merino Antonio
 
 
-Enlace al sitio: [GitHub Pages](https://braulio-palagot.github.io/Reporte_PracticasEnEquipo/)
+**Enlace al sitio:** [GitHub Pages](https://braulio-palagot.github.io/Reporte_PracticasEnEquipo/)
