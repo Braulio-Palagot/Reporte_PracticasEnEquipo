@@ -16,9 +16,17 @@ main {
     text-align: center;
 }
 
-#blog-entrance article {
+#blog-entrance .card {
     margin: 12px 4em;
     border: 2px solid rgb(172, 126, 98, 0.3);
+    border-radius: 2em;
+    background-color: rgb(210, 200, 188, 0.1);
+}
+#blog-entrance .content {
+    padding: 2em;
+    display: inline-block;
+    text-align: center;
+    width: 90%;
     border-radius: 2em;
     background-color: rgb(210, 200, 188, 0.1);
 }
