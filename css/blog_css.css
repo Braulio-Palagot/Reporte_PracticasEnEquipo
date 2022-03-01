@@ -27,11 +27,12 @@ main {
 }
 #blog-entrance .content {
     padding: 2em;
-    display: inline-block;
-    text-align: center;
-    width: 90%;
+    margin: 12px 1em;
     border-radius: 2em;
     background-color: rgb(210, 200, 188, 0.1);
+}
+#blog-entrance .content img {
+    max-width: 98%;
 }
 #blog-entrance div {
     padding: 1em;
