@@ -17,10 +17,13 @@ main {
 }
 
 #blog-entrance .card {
-    margin: 12px 4em;
+    margin: 12px 1em;
     border: 2px solid rgb(172, 126, 98, 0.3);
     border-radius: 2em;
     background-color: rgb(210, 200, 188, 0.1);
+}
+#blog-entrance .card img {
+    max-width: 98%;
 }
 #blog-entrance .content {
     padding: 2em;
@@ -38,6 +41,11 @@ main {
     text-align: left;
 }
 
+@media (min-width:768px) {
+    #blog-entrance .card {
+        margin: 12px 4em;
+    }
+}
 @media (min-width:1080px) {
     #blog-entrance {
         width: 75%;
