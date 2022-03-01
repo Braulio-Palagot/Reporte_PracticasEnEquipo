@@ -1,0 +1,37 @@
+@import url(main_css.css);
+@import url(blog-info_css.css);
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#blog-entrance {
+    float: left;
+}
+
+#blog-entrance .container {
+    display: unset;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#blog-entrance article {
+    margin: 12px 4em;
+    border: 2px solid rgb(172, 126, 98, 0.3);
+    border-radius: 2em;
+    background-color: rgb(210, 200, 188, 0.1);
+}
+#blog-entrance div {
+    padding: 1em;
+}
+
+#blog-entrance article h3 {
+    text-align: left;
+}
+
+@media (min-width:1080px) {
+    #blog-entrance {
+        width: 75%;
+    }
+}

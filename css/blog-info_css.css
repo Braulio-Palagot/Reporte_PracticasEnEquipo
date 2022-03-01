@@ -1,0 +1,26 @@
+#blog-info {
+    float: left;
+    text-align: center;
+    border-top: 2px solid rgb(172, 126, 98, 0.3);
+}
+#blog-info img {
+    max-width: 20%;
+}
+
+#blog-info ul {list-style: none;}
+#blog-info a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (min-width:1080px) {
+    #blog-info {
+        width: 25%;
+        padding-top: 50px;
+        border-left: 1px solid rgb(172, 126, 98, 0.3);
+    }
+    #blog-info img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
